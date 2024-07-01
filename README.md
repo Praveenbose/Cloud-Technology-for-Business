@@ -79,3 +79,76 @@ To guarantee the best server and network performance, BookShow employs both huma
 
 BookShow prioritizes regular updates and patching of software and firmware to maintain security and optimize performance. Additionally, they conduct routine hardware maintenance, including checks and replacements for aging components, ensuring that their infrastructure remains reliable and efficient. These practices contribute to the overall stability and security of BookShow's IT environment.
 
+5. Current IT Challenges
+Using the IT infrastructure as a guide, let's sum up the company's challenges:
+
+5.1 High Capital Expenditures (CapEx)
+
+BookShow faces significant capital expenditures primarily due to several factors. These include the continuous costs of purchasing and maintaining the physical servers and network equipment. Also, there are significant initial expenses related to acquiring hardware and software licenses. Moreover, the regular replacement and upgrading of these assets add to the company's overall capital expenditure. Investing in these is crucial to maintain and improve BookShow's IT infrastructure.
+
+5.2 Operational Expenses (OpEx) 
+
+BookShow incurs operational expenses related to various aspects of its IT infrastructure. This includes costs associated with power, cooling systems, and physical space required to house servers and networking equipment. Additionally, operational expenses cover the ongoing maintenance and management of hardware components. Furthermore, BookShow allocates resources for IT staff responsible for the day-to-day management and maintenance of servers, ensuring smooth operation and reliability of its IT environment. These operational expenditures are crucial for supporting the continuous functionality and efficiency of BookShow's technology infrastructure.
+
+5.3 Scalability Problems 
+
+BookShow encounters scalability challenges manifested in two primary issues. Firstly, the company struggles to swiftly add resources to manage surges in demand for significant events or releases. This limitation hinders their ability to efficiently accommodate peak traffic periods. Secondly, in anticipation of peak loads, BookShow tends to over-provision resources, resulting in unnecessary resource allocation and wastage during off-peak periods. These scalability issues highlight the need for a more flexible and efficient resource management approach to better meet fluctuating demand while optimizing resource utilization.
+
+5.4 Frequent Downtime
+
+The current on-premises servers often fail, particularly during peak hours or when there's a surge in demand for popular events. The company is frequently experiencing downtime because its servers cannot handle high traffic volumes. This persistent issue negatively impacts customer satisfaction, causing users to encounter payment interruptions and poor loading times when accessing the website. Consequently, the platform's reliability and overall user experience suffer, potentially leading to customer loss and a decline in trust and reputation.
+
+5.5 Security Threats
+
+Businesses encounter a major difficulty in keeping security patches and updates up to date because of the expensive allocation of resources. Consequently, the system becomes open to unauthorized access and various cyber threats, leading to potential data breaches and security risks.
+
+5.6 Disaster recovery and redundancy
+
+Setting up and maintaining backup and recovery solutions pose challenges for BookShow in terms of complexity and cost. Ensuring data redundancy and availability is crucial but requires significant effort and investment to achieve effectively. These tasks are essential for safeguarding data integrity and ensuring uninterrupted service delivery for BookShow's operations.
+
+5.7 Performance and Monitoring
+
+Server outages or poor performance may go unnoticed for extended periods of time if the monitoring system fails to provide proactive notifications or real-time insights. This could lead to customer annoyance and lost revenue due to the inability to purchase tickets. A non-scalable monitoring system may be overwhelmed by a sudden increase in traffic during well-attended events, resulting in platform slowness or crashes, unpleasant user experiences, and lost revenue as potential buyers abandon their purchases.
+
+6. Impact on Business and Revenue Loss
+
+Revenue from ticket sales decreases when there are problems with downtime and performance, particularly during busy times. The company deals with higher expenses because of large capital and operational costs, which affects its financial situation and profit. Customers lose trust and loyalty when there is regular downtime and an unsatisfactory user experience on the platform. The company's ineffective IT infrastructure puts it at a disadvantage compared to its competitors.
+To address these challenges and enhance operational efficiency, we will adopt a strategic approach using cloud services, specifically AWS (Amazon Web Services) technology. This initiative aims to effectively resolve our existing issues and drive significant improvements.
+Let's take a brief look at what is cloud computing and its benefits, including AWS, and discuss the specific AWS services we intend to implement in this project.
+
+7. Cloud Computing
+
+Cloud computing involves providing computing services such as servers, storage, databases, networking, software, analytics, and intelligence via the Internet ("the cloud") in order to allow for quicker innovation, adaptable resources, and cost-effectiveness. You usually only pay for the cloud services that you utilize, which can reduce your operational expenses, enhance the efficiency of your infrastructure, and adapt as your business requirements evolve (Microsoft Azure, n.d.).
+
+7.1 Benefits of Cloud Computing
+
+1. Cost Efficiency: Cuts expenses on hardware, software, and data centers; reduces power and cooling costs; minimizes IT management requirements.
+
+2. Speed: Facilitates fast, on-demand resource allocation; enhances business agility and capacity planning.
+
+3. Worldwide Reach: Allows for flexible scaling of resources from ideal geographic locations as required .
+
+4. Efficiency: Reduces time spent on hardware setup and maintenance, enabling IT teams to focus on primary business objectives.
+
+5. Performance: Functions on a secure global network of updated data centers, minimizing latency and benefiting from economies of scale.
+
+6. Dependability: Simplifies data backup, disaster recovery, and business continuity through multiple redundant sites.
+
+7. Safety: Reinforces overall security posture with comprehensive policies, technologies, and controls.
+
+7.2 Amazon Web Services:
+
+Amazon Web Services (AWS) offers IT infrastructure services to businesses as web services now commonly known as cloud computing. Amazon Web Services provides a wide range of cloud-based products worldwide. These include various services such as computing, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. Users can access these services on demand, in seconds, and with pay-as-you-go pricing. AWS offers over 200 services, covering areas such as data warehousing, deployment tools, directories, and content delivery. Presently, AWS supports a dependable, scalable, and cost-effective cloud infrastructure platform that serves numerous businesses across 190 countries (Amazon Web Services, 2023).
+
+7.2.1 What is AWS EC2?
+
+Amazon Elastic Compute Cloud (Amazon EC2) is a service provided by Amazon Web Services (AWS) that offers flexible and scalable computing capacity. It helps in minimizing hardware expenses and enables quick development and deployment of applications. Amazon EC2 allows users to launch and manage virtual servers according to their requirements, and adjust capacity to handle varying workloads. Moreover, an EC2 instance refers to a virtual server in the AWS Cloud, with specific hardware configurations based on the chosen instance type (Amazon Web Services, 2023).
+                  
+  
+7.2.2 What is AWS CloudWatch?
+
+Amazon CloudWatch provides real-time monitoring for your Amazon Web Services (AWS) resources and applications. You can track and collect metrics, which are measurable variables, and create custom dashboards to display them. Additionally, you can set up alarms and receive notifications or automate actions when certain thresholds are reached. This helps you gain insight into resource utilization, application performance, and operational health (Amazon Web Services, 2024).                     
+                                                                 
+ 
+
+
